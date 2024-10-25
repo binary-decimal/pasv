@@ -7,7 +7,7 @@ package lesson7;
 public class Task15RevertArray {
     public static void main(String[] args) {
         int[] lol = {1, 2, 3, 4, 5};
-        int temp = 0;
+        int temp;
 
         for (int i : lol) {
             System.out.print(i);
