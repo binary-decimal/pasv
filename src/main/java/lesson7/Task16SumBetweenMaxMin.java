@@ -12,6 +12,8 @@ public class Task16SumBetweenMaxMin {
         int minPosition = 0;
         int maxPosition = 0;
         int sum = 0;
+        int start = 0;
+        int end = 0;
 
         for (int i: elements) {
             System.out.println(i);
@@ -29,13 +31,15 @@ public class Task16SumBetweenMaxMin {
         }
 
         if (minPosition < maxPosition) {
-            for (int i = minPosition + 1; i < maxPosition; i++) {
-                sum = sum + elements[i];
-            }
+            start = minPosition;
+            end = maxPosition;
         } else {
-            for (int i = maxPosition + 1; i < minPosition; i++) {
-                sum = sum + elements[i];
-            }
+            start = maxPosition;
+            end = minPosition;
+        }
+
+        for (int i = start + 1; i < end; i++) {
+            sum += elements[i];
         }
 
         System.out.println("min is " + min);
