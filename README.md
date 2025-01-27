@@ -1,3 +1,13 @@
+### Homework Book Management System
+
+CLI library system allows users to manage books using basic CRUD (Create, Read, Update, Delete) operations. 
+
+##### Overview
+The main loop greets the user and displays a menu with options to view, modify, add, or delete books. The system continues until the user chooses to exit. 
+Books are stored in MockGlobalStorage, which provides a runtime-only mock storage using a static list. 
+
+-------------------------
+
 📘 Java Homeworks
 
 📁 High-Complexity High-Scale Files Architecture 
