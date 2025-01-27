@@ -15,7 +15,6 @@ Books are stored in MockGlobalStorage, which provides a runtime-only mock storag
 - Each package represents a lesson number.
 - Each class within the package corresponds to an individual exercise for that lesson.
 
-
 🛠️ Tech Stack
 
 - Java Version: 17
